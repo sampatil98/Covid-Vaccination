@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccination</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div>
+            <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_kVDG4rWBg5ZyiHhr1bVU4M-bEnUEKMjpug&usqp=CAU" alt="">
+        </div>
+        <ul id="nav_list">
+            <li id="list_item">
+                <a href="index.html">Registration</a>
+            </li>
+            <li id="list_item">
+                <a href="dashbord.html">Dashboard </a>
+            </li >
+            <li id="list_item">
+                <a href="vaccinated.html">Vaccinated</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="headermsg">
+        <h2> Welcome to Vaccination</h2>
+    </div>
+    <div id="maincont">
+    <div id="formcontainer">
+       
+            
+                <div class="heading">
+                    <h4>REGISTRATION FORM</h4>
+                </div>
+            <form>
+                <div id="formdata">
+                    <h3>Enter Your Name</h3>
+                    <input id="name" type="text" placeholder="NAME">
+                    <h3>Enter Your Aadhar Number</h3>
+                    <input id="number" type="number" placeholder="ADHAR ID">
+                    <h3>Enter Your Age</h3>
+                    <input id="age" type="number" placeholder="AGE">
+                    <br>
+                    <h3>Select Designation</h3>
+                    <select name="Designation " id="Designation">
+                        <option value="">Designation</option>
+                        <option value="employee">employee</option>
+                        <option value="student">student</option>
+                    </select>
+                    <br>
+                    <h3>Select Vaccine</h3>
+                    <select name="Vaccine " id="Vaccine">
+                        <option value="">Vaccine</option>
+                        <option value="Covishield ">Covishield </option>
+                        <option value="Covaxin ">Covaxin </option>
+                        <option value="Sputnik ">Sputnik </option>
+                    </select>
+                    <div id="btn">
+                        <input type="submit" value="Submit">
+                    </div>
+                </div>
+                
+            </form>
+       
+    </div>
+    <div id="banner">
+        <img src="https://png.pngtree.com/png-clipart/20210309/original/pngtree-coronavirus-vaccine-banner-png-image_5897052.jpg" alt="">
+    </div>
+    </div>
+</body>
+
+<script src="register.js"></script>
+</html>

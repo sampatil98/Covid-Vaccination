@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="register.css">
+    ;<link rel="stylesheet" href="dashbord.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div>
+            <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_kVDG4rWBg5ZyiHhr1bVU4M-bEnUEKMjpug&usqp=CAU" alt="">
+        </div>
+        <ul id="nav_list">
+            <li id="list_item">
+                <a href="index.html">Registration</a>
+            </li>
+            <li id="list_item">
+                <a href="dashbord.html">Dashboard </a>
+            </li >
+            <li id="list_item">
+                <a href="vaccinated.html">Vaccinated</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="filterdiv">
+        <div>
+        <h3>Filter by Vaccine</h3>
+        <select name="vaccine" id="Vaccinefilter">
+            <option value="Vaccine">Vaccine</option>
+            <option value="Covishield ">Covishield </option>
+            <option value="Covaxin ">Covaxin </option>
+            <option value="Sputnik ">Sputnik </option>
+        </select>
+        </div>
+        <div>
+            <h3>Sort by Age</h3>
+        <select name="age" id="Agefilter">
+            <option value="Age">Age</option>
+            <option value="High">High</option>
+            <option value="Low">Low</option>
+        </select>
+        </div>
+        <div>
+            <h3>Filter by Priority</h3>
+        <select name="Priority" id="Priorityfilter">
+            <option value="Priority">Priority</option>
+            <option value="p0">p0</option>
+            <option value="p1">p1</option>
+            <option value="p2">p2</option>
+            <option value="p3">p3</option>
+        </select>
+        </div>
+       
+    </div>
+    <table id="table">
+        <thead id="head">
+        <tr>
+            <th>Sr No</th>
+            <th>Name</th>
+            <th>Aadhar Number</th>
+            <th>Age</th>
+            <th>Designation</th>
+            <th>Vaccine Type</th>
+            <th>Priority</th>
+            <th>OTP</th>
+            <th>Vaccinate</th>
+            <th>Delete</th>
+            
+        </tr>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+    </table>
+    
+    
+</body>
+<script src="dashbord.js"></script>
+</html>
