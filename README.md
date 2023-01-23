@@ -1,1 +1,1 @@
-# Covifd-Vaxination
+# Covid-Vaxination
